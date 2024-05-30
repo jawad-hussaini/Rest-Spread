@@ -25,3 +25,8 @@ console.log(...obj1, ...obj2);
 const g = ["ali", "ahmed", "aliya"];
 const [,,girl]= g;
 console.log(girl);
+
+let one = [1, 2, 3, 4];
+let two = [5, 6, 7, 8];
+let three = [...one, ...two];
+console.log(three)
